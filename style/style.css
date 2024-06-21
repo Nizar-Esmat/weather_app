@@ -1,0 +1,48 @@
+*{
+    box-sizing: content-box;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+.Weather_text{
+        font-size: 18px;
+        color: white;
+}
+nav{
+    height: auto;
+    background-color: #1E202B;
+    
+}
+a{
+    cursor: pointer;
+    color: white !important;
+}
+
+.active{
+    border: 2px solid aqua;
+    border-radius: 25px;
+ 
+}
+
+.nav-item:hover{
+    border: 2px solid aqua;
+    border-radius: 25px;
+
+}
+
+.find{
+    background-image: url('img/start_bootstrap1.png');
+    background-size: cover;
+    padding: 70px 0;
+   
+}
+
+.layout{
+    background-color: #2D303D;
+}
+.the_content{
+    background-color: #323544;
+}
+footer{
+    background-color: #1E202B;
+}

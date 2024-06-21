@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Task</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/all.min.css">
+    <style>
+        .navbar-nav {
+            flex-direction: column;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container py-5">
+            <a class="navbar-brand d-flex">
+                <img src="style/img/logo@2x.png" class="w-25 h-25" alt="">
+                <div class="Weather_text">
+                    <p class="p-0 px-1 m-0 fw-bold">Weather</p>
+                    <span class="p-0 px-1">tagline goes here</span>
+                </div>
+            </a>
+
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-sliders" style="color: white;"></i>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav fs-4 text-center ">
+                    <li class="nav-item active">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#">News</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#">Live cameras</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#">Photos</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section>
+        <div class="find ">
+            <div class="search py-5 container">
+                <form class="input-group mb-3">
+                    <input type="text" class="form-control rounded-4 py-2 " placeholder="Find your location..."
+                        aria-label="Recipient's username" aria-describedby="button-addon2" id="search">
+                    <button class="btn btn-outline-primary rounded-4 mx-2 " type="button"
+                        id="button-addon2">Button</button>
+                </form>
+
+            </div>
+
+
+        </div>
+
+    </section>
+    <section style="background-color: #1E202B;">
+        <div class="forecast-table container" >
+            <div class="row  " id="forecast_current">
+           
+   
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="d-flex justify-content-evenly py-5">
+        <div >
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+                <button class="btn btn-outline-primary" type="button" id="button-addon2">Button</button>
+              </div>
+          <p class="">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+        </div>
+        <div class="icons ">
+            <i class="fa-solid fa-fan fa-xl px-3"></i>
+            <i class="fa-solid fa-fan fa-xl px-3"></i>
+            <i class="fa-solid fa-fan fa-xl px-3"></i>
+            <i class="fa-solid fa-fan fa-xl px-3"></i>
+      
+        </div>
+    </footer>
+
+
+    <script src="javascript/javascript.js"></script>
+    <script src="javascript/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
